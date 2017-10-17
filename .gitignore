@@ -1,0 +1,12 @@
+## Ignore txt and log files
+*.txt
+*.log
+
+## Ignore office files
+*.xls
+*.xlsx
+
+## Ignore images
+*.jpg
+*.jpeg
+*.png
