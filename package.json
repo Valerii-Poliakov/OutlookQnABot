@@ -1,0 +1,15 @@
+{
+  "name": "outlookqnabot",
+  "version": "1.0.0",
+  "description": "Outlook QnA bot connected to QnA maker ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valerii Poliakov",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.11.0",
+    "restify": "^6.0.1"
+  }
+}
