@@ -10,3 +10,6 @@
 *.jpg
 *.jpeg
 *.png
+
+## Ignore node modules
+node_modules/
