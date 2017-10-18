@@ -1,3 +1,5 @@
+.env
+
 ## Ignore txt and log files
 *.txt
 *.log
