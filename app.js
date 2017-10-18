@@ -3,7 +3,7 @@ var restify = require('restify');
 var builder = require('botbuilder');
 var request = require('request');
 
-const QNA_URI = 'https://westus.api.cognitive.microsoft.com/qnamaker/v2.0/knowledgebases/'+KNOWLEDGEBASE_ID+'/generateAnswer';
+const QNA_URI = 'https://westus.api.cognitive.microsoft.com/qnamaker/v2.0/knowledgebases/'+process.env.KNOWLEDGEBASE_ID+'/generateAnswer';
 const headers = {
     'Content-Type': 'application/json',
     'Ocp-Apim-Subscription-Key': process.env.OCP_APIM_SUBSCRIPTION_KEY
