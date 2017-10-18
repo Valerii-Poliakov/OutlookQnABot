@@ -2,8 +2,6 @@
 var restify = require('restify');
 var builder = require('botbuilder');
 var request = require('request');
-process.env.MICROSOFT_APP_ID = 'dc367a86-cc14-40a2-ae58-45d115c4b919';
-process.env.MICROSOFT_APP_PASSWORD = 'bTdKmdfONGgAEEhYVuOu2g6';
 
 const QNA_URI = 'https://westus.api.cognitive.microsoft.com/qnamaker/v2.0/knowledgebases/a770aeff-5788-4b8f-94ae-effaa0233691/generateAnswer';
 const headers = {
