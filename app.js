@@ -3,10 +3,10 @@ var restify = require('restify');
 var builder = require('botbuilder');
 var request = require('request');
 
-const QNA_URI = 'https://westus.api.cognitive.microsoft.com/qnamaker/v2.0/knowledgebases/a770aeff-5788-4b8f-94ae-effaa0233691/generateAnswer';
+const QNA_URI = 'https://westus.api.cognitive.microsoft.com/qnamaker/v2.0/knowledgebases/'+KNOWLEDGEBASE_ID+'/generateAnswer';
 const headers = {
     'Content-Type': 'application/json',
-    'Ocp-Apim-Subscription-Key': '1b819d1df78d4e8eaac9628b7a46309e'
+    'Ocp-Apim-Subscription-Key': process.env.OCP_APIM_SUBSCRIPTION_KEY
 };
 
 // Setup Restify Server
